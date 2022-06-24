@@ -2,7 +2,8 @@
   "name": "sidemenu",
   "version": "0.0.1",
   "scripts": {
-    "rollup": "rollup -c"
+    "rollup": "rollup -c",
+    "build": "tsc"
   },
   "license": "ISC",
   "devDependencies": {
