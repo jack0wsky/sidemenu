@@ -1,6 +1,6 @@
 {
   "name": "@jack0wsky/sidemenu",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "scripts": {
     "rollup": "rollup -c",
     "build": "tsc"
