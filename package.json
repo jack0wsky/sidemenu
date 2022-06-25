@@ -1,11 +1,14 @@
 {
   "name": "@jack0wsky/sidemenu",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "scripts": {
     "rollup": "rollup -c",
     "build": "tsc"
   },
   "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^3.1.4"
+  },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^22.0.1",
     "@rollup/plugin-node-resolve": "^13.3.0",
@@ -16,7 +19,6 @@
     "react-dom": "^18.2.0",
     "rollup": "^2.75.7",
     "rollup-plugin-dts": "^4.2.2",
-    "tailwindcss": "^3.1.4",
     "tslib": "^2.4.0",
     "typescript": "^4.7.4"
   },
