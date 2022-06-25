@@ -1,5 +1,5 @@
 import React from "react";
 
-const SideMenu = () => <div>side menu</div>;
+const SideMenu = () => <div className="">side menu</div>;
 
 export default SideMenu;
