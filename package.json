@@ -1,13 +1,15 @@
 {
   "name": "@jack0wsky/sidemenu",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "scripts": {
     "rollup": "rollup -c",
     "build": "tsc"
   },
   "license": "ISC",
   "dependencies": {
-    "tailwindcss": "^3.1.4"
+    "autoprefixer": "^9.8.8",
+    "postcss": "^7.0.39",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^22.0.1",
@@ -19,6 +21,7 @@
     "react-dom": "^18.2.0",
     "rollup": "^2.75.7",
     "rollup-plugin-dts": "^4.2.2",
+    "rollup-plugin-postcss": "^4.0.2",
     "tslib": "^2.4.0",
     "typescript": "^4.7.4"
   },
